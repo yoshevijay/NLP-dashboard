@@ -1,0 +1,37 @@
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #264653;
+        color: #e9c46a;
+    }
+
+    .stApp {
+        background-color: #264653;
+        color: #e9c46a;
+    }
+
+    .css-1d391kg {
+        background-color: #2a9d8f;
+        color: white;
+    }
+
+    .stButton > button {
+        background-color: #e76f51;
+        color: white;
+        border-radius: 8px;
+        padding: 0.5em 1em;
+    }
+
+    .stTextInput > div > input {
+        background-color: #f4a261;
+        color: black;
+    }
+
+    .stMarkdown h1, .stMarkdown h2, .stMarkdown h3 {
+        color: #e9c46a;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
